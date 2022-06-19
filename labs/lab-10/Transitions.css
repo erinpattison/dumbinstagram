@@ -1,0 +1,20 @@
+div {
+  transition: [property] [duration] [timing-function] [delay];
+}
+div {
+  width: 100px;
+  height: 100px;
+  background: blueviolet;
+  transition: width 2s;
+}
+
+div:hover {
+  width: 300px;
+}
+
+.image {
+  filter: saturate(0);
+}
+.image:hover {
+  filter: saturate(1);
+}
